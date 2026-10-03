@@ -1,6 +1,6 @@
 # AC8 MRP Editor
 
-Offline save utility for **ACE COMBAT 8** campaign MRP values.
+Offline save utility compatible with **ACE COMBAT 8** campaign save files.
 
 This project edits a user's own `Campaign.sav` file, updates `CurrentMRP` and `TotalMRP`, recalculates the campaign save checksum, and verifies the result before writing it back.
 
@@ -12,11 +12,14 @@ This tool is intended for personal, offline campaign saves only.
 
 It does **not**:
 
-- modify the game executable,
-- bypass DRM,
-- interact with online services,
+- modify or patch the game executable,
+- bypass DRM, license checks, Denuvo, or Easy Anti-Cheat,
+- disable or interfere with anti-cheat or other security mechanisms,
+- interact with multiplayer or online services,
 - edit `OnlineAccount.sav`,
 - ship or depend on game binaries, assets, or bundled save files.
+
+The project is distributed as independently written source code. Users are responsible for ensuring that their use complies with applicable law and any agreements or terms that apply to their copy of the game.
 
 ## Save location
 
@@ -77,8 +80,12 @@ See [`docs/save-format.md`](docs/save-format.md).
 
 ## Disclaimer
 
-This is an unofficial community utility and is not affiliated with, endorsed by, or sponsored by Bandai Namco Entertainment.
+This is an unofficial, independent community utility. It is **not affiliated with, endorsed by, sponsored by, or approved by Bandai Namco Entertainment or Bandai Namco Aces**.
 
-ACE COMBAT and related names and trademarks are the property of their respective owners.
+ACE COMBAT, ACE COMBAT 8, Bandai Namco, and related names and trademarks are the property of their respective owners. Their names are used only to identify compatibility with the game.
 
-This repository contains only independently written source code and documentation. It does not distribute game code, executables, assets, or copyrighted save data.
+This repository contains only independently written source code and documentation. It does not distribute game code, executables, assets, logos, DRM components, anti-cheat components, or copyrighted save data.
+
+Nothing in this repository grants rights to any third-party game content, trademarks, or other intellectual property. The MIT License applies only to the code and documentation authored for this repository.
+
+See [`NOTICE.md`](NOTICE.md) for additional project notices.
